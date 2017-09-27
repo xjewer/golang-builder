@@ -1,4 +1,4 @@
-FROM golang:1.7.6
+FROM golang:1.8.3
 MAINTAINER CenturyLink Labs <clt-labs-futuretech@centurylink.com>
 
 RUN apt-get update && apt-get install -y upx-ucl
